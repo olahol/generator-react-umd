@@ -40,9 +40,9 @@ module.exports = generators.Base.extend({
   },
 
   writingBase: function () {
-    this._cp(".gitignore");
-    this._cp(".npmignore");
-    this._cp(".travis.yml");
+    this._cp("gitignore", ".gitignore");
+    this._cp("npmignore", ".npmignore");
+    this._cp("travis.yml", ".travis.yml");
     this._cp("package.json");
     this._cp("README.md");
     this._cp("src/index.js");
