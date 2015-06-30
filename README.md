@@ -1,7 +1,13 @@
 # generator-react-umd
 
-> A Yeoman generator that generates a minimalistic scaffold for a ES6 React
-> component wrapped with the UMD.
+> A minimalistic scaffold for a ES6 React component wrapped with the UMD.
+
+Includes:
+
+* [x] Compilation from ES6.
+* [x] UMD wrapping.
+* [x] Tests using `jsdom` and Mocha.
+* [x] Dev server using BEEFY.
 
 # Usage
 

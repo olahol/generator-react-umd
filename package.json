@@ -1,6 +1,6 @@
 {
   "name": "generator-react-umd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A minimalistic scaffold for a ES6 React wrapped with the UMD",
   "main": "./app/index.js",
   "author": "Ola Holmström",
