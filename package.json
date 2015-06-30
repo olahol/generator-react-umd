@@ -1,0 +1,26 @@
+{
+  "name": "generator-react-umd",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./app/index.js",
+  "author": "Ola Holmström",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olahol/generator-react-umd"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "react",
+    "umd",
+    "yeoman"
+  ],
+  "bugs": {
+    "url": "https://github.com/olahol/generator-react-umd/issues"
+  },
+  "homepage": "https://github.com/olahol/generator-react-umd",
+  "dependencies": {
+    "underscore.string": "^3.1.1",
+    "yeoman-generator": "^0.20.1"
+  }
+}

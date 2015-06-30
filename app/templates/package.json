@@ -1,0 +1,26 @@
+{
+  "name": "<%= slug %>",
+  "version": "0.1.0",
+  "description": "<%= appname %>",
+  "main": "<%= slug %>.js",
+  "author": "<%= realname %> <<%= email %>>",
+  "scripts": {
+    "test": "npm run build && mocha",
+    "build": "./node_modules/.bin/babel ./src/index.js -t umd > <%= slug %>.js",
+    "prepublish": "npm run build",
+    "start": "./node_modules/.bin/beefy dev.js --live -- -t babelify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= username %>/<%= slug %>"
+  },
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "bugs": {
+    "url": "https://github.com/<%= username %>/<%= slug %>/issues"
+  },
+  "homepage": "https://github.com/<%= username %>/<%= slug %>",
+  "license": "MIT"
+}
